@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const xhr = new XMLHttpRequest();
   
       // Configure the request
-      xhr.open("POST", "http://192.168.1.5:3000/contact");
+      xhr.open("POST", "https://840f-2401-4900-1c33-23e2-744a-5c3a-c944-37e9.ngrok-free.app/contact");
       xhr.setRequestHeader("Content-Type", "application/json");
   
       // Handle the response
@@ -54,6 +54,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
+  const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', function() {
+  menu.classList.toggle('active');
+});
+
   
 
   
