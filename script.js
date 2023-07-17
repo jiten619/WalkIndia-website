@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const xhr = new XMLHttpRequest();
   
       // Configure the request
-      xhr.open("POST", "https://840f-2401-4900-1c33-23e2-744a-5c3a-c944-37e9.ngrok-free.app/contact");
+      xhr.open("POST", "https://steadily-lucky-burro.ngrok-free.app/contact");
       xhr.setRequestHeader("Content-Type", "application/json");
   
       // Handle the response
