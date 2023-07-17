@@ -345,7 +345,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   /* Global Styles */
   .container {
     padding: 10px;
