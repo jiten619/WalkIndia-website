@@ -25,7 +25,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 1150px;
+  margin-right: 1050px;
 }
 
 .logo img {
@@ -352,6 +352,11 @@ footer {
   }
 
   /* Header */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
   .logo img {
     max-height: 30px;
   }
